@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Selecciona tus stickers</title>
+  <link rel="stylesheet" href="./assets/css/style1.css">
+</head>
+<body>
+
+  <div class="contenedor">
+    <h1> Souvenirs </h1>
+    <h2>Lleva tus stickers favoritos de Harry Potter</h2>
+    <p> Pedido máximo 10 stickers</p>
+
+    <div class="stickers">
+      <div class="sticker">
+        <img src="./assets/img/expreso.png" alt="Express Train">
+        <input type="number" id="input1" min="0" max="10">
+      </div>
+
+      <div class="sticker">
+        <img src="./assets/img/amigos.png" alt="HP friends">
+        <input type="number" id="input2" min="0" max="10">
+      </div>
+
+      <div class="sticker">
+        <img src="./assets/img/nimbus.png" alt="Nimbus 2000">
+        <input type="number" id="input3" min="0" max="10">
+      </div>
+    </div>
+
+    <button onclick="verificarStickers()">Verificar</button>
+    <p id="resultado"></p>
+  </div>
+
+  <script src="./assets/js/main1.js"></script>
+</body>
+</html>
